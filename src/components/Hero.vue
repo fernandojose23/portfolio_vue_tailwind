@@ -20,7 +20,7 @@
           <div class="flex flex-row mt-4">
             <button
               type="button"
-              class="z-10 inline-flex items-center text-white bg-blue-500 hover:bg-blue-800 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              class="z-10 inline-flex items-center duration-500 hover:scale-105 hover:shadow-xl cursor-pointer text-white bg-blue-500 hover:bg-blue-600 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700"
             >
               View Resume
               <svg
@@ -39,12 +39,14 @@
                 ></path>
               </svg>
             </button>
-            <button
-              type="button"
-              class="text-gray-900 bg-white border border-gray-300 hover:bg-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
-            >
-              Contact
-            </button>
+            <a href="#contact" class="z-10">
+              <button
+                type="button"
+                class="text-gray-900 bg-white border duration-500 hover:scale-105 hover:shadow-xl cursor-pointer border-gray-300 hover:bg-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
+              >
+                Contact me
+              </button>
+            </a>
           </div>
         </div>
       </div>

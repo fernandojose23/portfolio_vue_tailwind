@@ -24,7 +24,7 @@
     <Footer></Footer>
     <a href="#navbar">
       <div
-        class="fixed cursor-pointer hover:scale-110 shadow-md bg-transparent backdrop-blur-sm border dark:border-gray-700 duration-700 text-center p-0.5 leading-none rounded-full left-auto bottom-0 right-0 m-5"
+        class="fixed cursor-pointer hover:scale-110 shadow-md bg-transparent border-gray-200 backdrop-blur-sm border dark:border-gray-700 duration-700 text-center p-0.5 leading-none rounded-full left-auto bottom-0 right-0 m-5"
       >
         <svg
           class="w-[45px] h-[43px] text-gray-700 dark:text-white duration-700"
