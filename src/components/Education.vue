@@ -16,15 +16,13 @@
             />
           </div>
           <div class="flex flex-col justify-center pl-0 sm:pl-8 py-4">
-            <p class="text-sm font-medium text-gray-400 dark:text-gray-300">
+            <p class="text-sm font-medium text-gray-600 dark:text-gray-400">
               Degree
             </p>
             <p class="text-base font-medium text-gray-700 dark:text-gray-200">
               Bachelor of Science in Information Technology
             </p>
-            <p
-              class="text-sm font-medium text-gray-400 dark:text-gray-300 mt-2 sm:mt-4"
-            >
+            <p class="text-sm font-medium text-gray-600 dark:text-gray-400 mt-4">
               2019 - 2023
             </p>
             <p class="text-base font-medium text-gray-700 dark:text-gray-200">

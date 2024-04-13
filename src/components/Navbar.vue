@@ -13,8 +13,8 @@
           <div
             class="justify-between w-full sm:w-auto z-10 flex flex-wrap sm:flex-nowrap items-center space-x-4 font-normal border-2 border-neutral-300 dark:border-gray-700 text-gray-100 bg-transparent backdrop-blur-lg text-sm pr-2 pl-10 py-2 rounded-full shadow-sm"
           >
-            <a href="#home"
-              ><button class="flex flex-row items-center">
+            <a href="#home" aria-label="Home"
+              ><button class="flex flex-row items-center" aria-label="Home">
                 <span
                   ><svg
                     class="w-6 h-6 me-2 block sm:hidden text-neutral-700 dark:text-gray-100"
@@ -36,8 +36,8 @@
                 ><span class="hidden sm:block"> Home </span>
               </button></a
             >
-            <a href="#projects"
-              ><button class="flex flex-row items-center">
+            <a href="#projects" aria-label="Projects"
+              ><button class="flex flex-row items-center" aria-label="Projects">
                 <span>
                   <svg
                     class="w-6 h-6 me-2 block sm:hidden text-neutral-700 dark:text-gray-100"
@@ -59,8 +59,8 @@
                 ><span class="hidden sm:block"> Projects </span>
               </button></a
             >
-            <a href="#skills"
-              ><button class="flex flex-row items-center">
+            <a href="#skills" aria-label="Skills"
+              ><button class="flex flex-row items-center" aria-label="Skills">
                 <span>
                   <svg
                     class="w-6 h-6 me-2 block sm:hidden text-neutral-700 dark:text-gray-100"
