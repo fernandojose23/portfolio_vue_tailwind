@@ -21,7 +21,7 @@
             <div class="flex flex-col sm:flex-row mt-4">
               <button
                 type="button"
-                class="sm:w-auto w-full z-10 inline-flex items-center text-center justify-center duration-500 hover:scale-105 hover:shadow-xl cursor-pointer text-white bg-blue-500 hover:bg-blue-600 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700"
+                class="sm:w-auto w-full z-10 inline-flex items-center text-center justify-center duration-500 hover:scale-105 hover:shadow-xl cursor-pointer text-white bg-blue-600 hover:bg-blue-700 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700"
               >
                 View Resume
                 <svg
@@ -40,6 +40,7 @@
                   ></path>
                 </svg>
               </button>
+
               <a href="#contact" class="z-10">
                 <button
                   type="button"

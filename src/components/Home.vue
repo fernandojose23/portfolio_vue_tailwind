@@ -22,7 +22,7 @@
     <Skills></Skills>
     <Contact></Contact>
     <Footer></Footer>
-    <a href="#navbar">
+    <a href="#navbar" aria-label="Navbar">
       <div
         class="fixed z-30 cursor-pointer hover:scale-110 shadow-md dark:border-gray-700 duration-700 text-center p-0.5 leading-none rounded-full left-auto bottom-0 right-0 m-5"
       >

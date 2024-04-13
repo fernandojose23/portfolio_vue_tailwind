@@ -83,6 +83,7 @@
               </button></a
             >
             <button
+              aria-label="Toggle dark mode"
               class="border-2 rounded-full p-2 hover:bg-gray-800 bg-gray-700 duration-500 hover:shadow-lg dark:bg-yellow-400"
               @click="toggleDarkMode"
             >
