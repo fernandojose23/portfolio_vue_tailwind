@@ -11,7 +11,10 @@
                 >
                   Projects.
                 </p>
-                <div class="flex flex-col mx-auto">
+                <p class="block sm:hidden">
+                  In Progress Mobile Responsible This Section.
+                </p>
+                <div class="hidden sm:block">
                   <div class="flex flex-wrap -mx-4">
                     <!-- Column -->
 
