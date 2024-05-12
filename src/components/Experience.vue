@@ -24,10 +24,6 @@
                 Web Developer
               </p>
 
-              <p class="mt-5 mb-5 text-neutral-900 dark:text-neutral-100">
-                I work a lot of stuff here.
-              </p>
-
               <div class="mb-5">
                 <p
                   class="text-lg font-medium text-neutral-900 dark:text-neutral-100"

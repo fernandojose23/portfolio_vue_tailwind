@@ -12,10 +12,10 @@
                 Fernando Jose A. Lopez
               </p>
               <p class="text-base font-normal text-neutral-200 mt-2">
-                CLSU BSIT graduate with expertise in system development,
-                proficient in front-end and back-end web development, skilled in
-                creating dynamic web applications using various programming
-                languages and tools.
+                I am a web developer with expertise in system development,
+                proficient in both front-end and back-end web development. I am
+                skilled in creating dynamic web applications using various
+                programming languages and tools.
               </p>
             </div>
             <div class="flex flex-col sm:flex-row mt-4">
