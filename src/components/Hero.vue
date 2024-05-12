@@ -20,7 +20,7 @@
             </div>
             <div class="flex flex-col sm:flex-row mt-4">
               <a
-                href="https://drive.google.com/uc?export=download&id=1Avn5WZ8splB3PenJmIggKjH8VGNegUsb"
+                href="https://drive.google.com/uc?export=download&id=1QY2eMheq6Ca3-gr2BmdQcWWtNPxrQ5hj"
                 class="sm:w-auto w-full z-10 inline-flex items-center text-center justify-center duration-500 hover:scale-105 hover:shadow-xl cursor-pointer text-white bg-blue-600 hover:bg-blue-700 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700"
               >
                 Download My Resume
