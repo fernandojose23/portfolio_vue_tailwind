@@ -19,12 +19,12 @@
               </p>
             </div>
             <div class="flex flex-col sm:flex-row mt-4">
-              <button
-                type="button"
+              <a
+                href="https://drive.google.com/uc?export=download&id=1Avn5WZ8splB3PenJmIggKjH8VGNegUsb"
                 class="sm:w-auto w-full z-10 inline-flex items-center text-center justify-center duration-500 hover:scale-105 hover:shadow-xl cursor-pointer text-white bg-blue-600 hover:bg-blue-700 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700"
               >
-                View Resume
-                <svg
+                Download My Resume
+                <!-- <svg
                   class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
@@ -38,8 +38,8 @@
                     stroke-width="2"
                     d="M1 5h12m0 0L9 1m4 4L9 9"
                   ></path>
-                </svg>
-              </button>
+                </svg> -->
+              </a>
 
               <a href="#contact" class="z-10">
                 <button
