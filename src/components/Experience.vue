@@ -17,7 +17,7 @@
                   iPhitech IT and Digital Solutions
                 </p>
                 <p class="text-neutral-900 dark:text-neutral-300 text-sm">
-                  August 2023 - Present
+                  August 2023 - May 2024
                 </p>
               </div>
               <p class="text-sm mb-2 text-neutral-900 dark:text-neutral-300">
