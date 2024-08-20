@@ -180,7 +180,7 @@
 </template>
 
 <script setup>
-import { ref, watch } from "vue";
+import { ref, watch, onMounted } from "vue";
 import Editor from "@tinymce/tinymce-vue";
 
 // Ref to store the editor's content
@@ -198,19 +198,24 @@ const editorConfig = {
   paste_data_images: true,
   automatic_uploads: true,
   license_key: "gpl",
-  content_security_policy: "default-src 'self'"
-//   skin_url: "../../public/tinymce/js/tinymce/themes/silver",
-//   content_css:
-//     "../../public/tinymce/js/tinymce/skins/content/default/content.js",
+  content_security_policy: "default-src 'self'",
+  skin_url: "../../public/tinymce/js/tinymce/skins/ui/oxide",
+  content_css:
+    "../../public/tinymce/js/tinymce/skins/content/default/content.js",
 };
 
 // Watcher to monitor changes in the form ref
 watch(form, () => {
   console.log(form.value);
 });
-
-// Setting the base URL for TinyMCE
-// window.tinymce.baseURL = '../../public/tinymce/js/tinymce';
+onMounted(() => {
+  // Make sure TinyMCE is loaded before setting the base URL
+  if (window.tinymce) {
+    window.tinymce.baseURL = '/tinymce/js/tinymce';
+  } else {
+    console.error('TinyMCE is not loaded.');
+  }
+});
 
 const WEB3FORMS_ACCESS_KEY = "117674fe-a6a9-4a46-8684-2114a5a92860";
 const isLoading = ref(false);
