@@ -123,19 +123,19 @@
                     class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400"
                     >Your Message</label
                   >
-                  <!-- <textarea
+                  <textarea
                     id="message"
                     rows="6"
                     class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
                     placeholder="Leave a message..."
                     name="message"
                     v-model="formData.message"
-                  ></textarea> -->
-                  <editor
+                  ></textarea>
+                  <!-- <editor
                     v-model="formData.message"
                     :init="editorConfig"
                     tinymce-script-src="../../public/tinymce/js/tinymce/tinymce.min.js"
-                  ></editor>
+                  ></editor> -->
                 </div>
                 <button
                   type="submit"
@@ -181,41 +181,39 @@
 
 <script setup>
 import { ref, watch, onMounted } from "vue";
-import Editor from "@tinymce/tinymce-vue";
+// import Editor from "@tinymce/tinymce-vue";
 
-// Ref to store the editor's content
-const form = ref("");
+// // Ref to store the editor's content
+// const form = ref("");
 
-// TinyMCE editor configuration
-const editorConfig = {
-  placeholder: "Add important notes here",
-  plugins: "advlist lists link image table",
-  toolbar:
-    "undo redo | formatselect | bold italic | alignleft aligncenter alignright | bullist numlist | link image media | table | outdent indent",
-  menubar: false,
-  branding: false,
-  statusbar: false,
-  paste_data_images: true,
-  automatic_uploads: true,
-  license_key: "gpl",
-  content_security_policy: "default-src 'self'",
-  skin_url: "../../public/tinymce/js/tinymce/skins/ui/oxide",
-  content_css:
-    "../../public/tinymce/js/tinymce/skins/content/default/content.js",
-};
+// // TinyMCE editor configuration
+// const editorConfig = {
+//   placeholder: "Add important notes here",
+//   plugins: "advlist lists link image table",
+//   toolbar:
+//     "undo redo | formatselect | bold italic | alignleft aligncenter alignright | bullist numlist | link image media | table | outdent indent",
+//   menubar: false,
+//   branding: false,
+//   statusbar: false,
+//   paste_data_images: true,
+//   automatic_uploads: true,
+//   license_key: "gpl",
+//   content_security_policy: "default-src 'self'",
+//   skin_url: "../../public/tinymce/js/tinymce/skins/ui/oxide",
+//   content_css:
+//     "../../public/tinymce/js/tinymce/skins/content/default/content.js",
+// };
 
-// Watcher to monitor changes in the form ref
-watch(form, () => {
-  console.log(form.value);
-});
-onMounted(() => {
-  // Make sure TinyMCE is loaded before setting the base URL
-  if (window.tinymce) {
-    window.tinymce.baseURL = '/tinymce/js/tinymce';
-  } else {
-    console.error('TinyMCE is not loaded.');
-  }
-});
+// watch(form, () => {
+//   console.log(form.value);
+// });
+// onMounted(() => {
+//   if (window.tinymce) {
+//     window.tinymce.baseURL = "../../public/tinymce";
+//   } else {
+//     console.error("TinyMCE is not loaded.");
+//   }
+// });
 
 const WEB3FORMS_ACCESS_KEY = "117674fe-a6a9-4a46-8684-2114a5a92860";
 const isLoading = ref(false);
