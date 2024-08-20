@@ -17,7 +17,7 @@
                 connect, don't hesitate to take the initiative and reach out via
                 email. Whether it's discussing potential projects, sharing fan
                 feedback, or simply having a casual chat, your message is always
-                welcomed.
+                welcome.
               </p>
             </div>
             <div
